@@ -1,0 +1,150 @@
+
+
+.dirtdays{
+    background:url("../imgs/dirtdays.jpg");
+    background-position: bottom;
+    position: cover;
+    background-repeat: no-repeat
+}
+
+.project_scene {
+    width: 650px;
+    height: 398px;
+    padding-top: 60px;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.project_content {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: all 1s;
+    -webkit-transform: translate(-50%, -50%) translateZ(50px);
+    transform: translate(-50%, -50%) translateZ(50px);
+    
+    z-index: 1;
+}
+
+.project_title {
+    position: absolute;
+    z-index: 30;
+    margin-left: -80px;
+    margin-top: 150px;
+    -webkit-transform: translateZ(100px);
+    transform: translateZ(100px);
+    text-align: left;
+    color: #FFFFFF;
+    pointer-events: none;
+}
+
+---------------------------------------
+
+<main id="main">
+        <div class="container">
+            <section class="portfolio">
+                <div class="row left justify-content-center ">
+                    <div id="portfolio" class="heading text-center">
+                        <span>SELECTED WORKS</span>
+                        <h2>2019</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 d-lg-flex justify-content-end ">
+                        <div class="project ">
+                            <div class="" data-tilt="" data-tilt-max="10" data-tilt-perspective="1000" data-tilt-scale="1.1" data-tilt-speed="3000" data-tilt-transition="true">
+                                <div class="overlay d-none d-md-block"><img class="img-fluid" src="assets/imgs/dirtdays_overlay.png" alt=""></div>  
+                                <div class="image"><img class="img-fluid" src="assets/imgs/dirtdays.jpg" alt=""></div>
+                            </div>
+                            <div class="project-title py-2">
+                                <span class="index">-01</span>
+                                <h3>Photography</h3>
+                                <a class="btnn" target="_blank" href="http://andrewsultan.com/projects/four/">VIEW PROJECT</a>
+                            </div>          
+                        </div>
+                    </div>
+                    <div class="col-sm-12 d-lg-flex justify-content-center ">
+                        <div class="project">
+                            <div data-tilt="" data-tilt-max="10" data-tilt-perspective="1000" data-tilt-scale="1.1" data-tilt-speed="3000" data-tilt-transition="true">
+                                <div class="image"><img class="img-fluid" src="assets/imgs/sounds.jpg" alt=""></div>
+                            </div>
+                            <div class="project-title py-2">
+                                <span class="index">-02</span>
+                                <h3>Patatap</h3>
+                                <a class="btnn" target="_blank" href="http://andrewsultan.com/projects/two/">VIEW PROJECT</a>
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 d-lg-flex justify-content-end">
+                        <div class="project ">
+                            <div data-tilt="" data-tilt-max="10" data-tilt-perspective="1000" data-tilt-scale="1.1" data-tilt-speed="3000" data-tilt-transition="true">
+                                <div class="image"><img class="img-fluid" src="assets/imgs/food.jpg" alt=""></div>
+                            </div>
+                            <div class="project-title py-2 ">
+                                <span class="index">-03</span>
+                                <h3>Ristorante Confusion</h3>
+                                <a class="btnn" target="_blank" href="http://andrewsultan.com/projects/one/">VIEW PROJECT</a>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col-sm-12 d-lg-flex justify-content-center">
+                        <div class="project ">
+                            <div data-tilt="" data-tilt-max="10" data-tilt-perspective="1000" data-tilt-scale="1.1" data-tilt-speed="3000" data-tilt-transition="true">
+                                <div class="image"><img class="img-fluid" src="assets/imgs/candy.jpg" alt=""></div>
+                            </div>
+                            <div class="project-title py-2">
+                                <span class="index">-04</span>
+                                <h3>Museum Of Candy</h3>
+                                <a class="btnn" target="_blank" href="http://andrewsultan.com/projects/three/">VIEW PROJECT</a>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="col-sm-12 d-lg-flex justify-content-end">
+                        <div class="project">
+                            <div data-tilt="" data-tilt-max="10" data-tilt-perspective="1000" data-tilt-scale="1.1" data-tilt-speed="3000" data-tilt-transition="true">
+                                <div class="image"><img class="img-fluid" src="assets/imgs/food.jpg" alt=""></div>
+                            </div>
+                            <div class="project-title py-2">
+                                <span class="index">-05</span>
+                                <h3>Grovie</h3>
+                                <a class="btnn" target="_blank" href="http://andrewsultan.com/projects/one/">VIEW PROJECT</a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div> 
+                <div class="row group-project">
+                    <div class="col-lg-5">
+                        <div class="project">
+                            <div data-tilt="" data-tilt-max="10" data-tilt-perspective="1000" data-tilt-scale="1.1" data-tilt-speed="3000" data-tilt-transition="true">
+                                <div class="image"><img class="img-fluid" src="assets/imgs/colors.jpg" alt=""></div>
+                            </div>
+                            <div class="project-title py-2">
+                                <span class="index">-06</span>
+                                <h3>Color Game</h3>
+                                <a class="btnn" target="_blank" href="http://andrewsultan.com/projects/five/">VIEW PROJECT</a>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-5 ">
+                        <div class="project ">
+                            <div data-tilt="" data-tilt-max="10" data-tilt-perspective="1000" data-tilt-scale="1.1" data-tilt-speed="3000" data-tilt-transition="true">
+                                <div class="image"><img class="img-fluid" src="assets/imgs/food.jpg" alt=""></div>
+                            </div>
+                            <div class="project-title py-2">
+                                <span class="index">-07</span>
+                                <h3>Memory Game</h3>
+                                <a class="btnn" target="_blank" href="http://andrewsultan.com/projects/one/">VIEW PROJECT</a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
